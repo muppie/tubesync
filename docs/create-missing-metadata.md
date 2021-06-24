@@ -27,7 +27,7 @@ Execute the following Django command:
 
 When deploying TubeSync inside a container, you can execute this with:
 
-`docker exec -ti tubesync python3 /app/manage.py sync-missing-metadata`
+`docker exec -it tubesync python3 /app/manage.py sync-missing-metadata`
 
 This command will log what its doing to the terminal when you run it.
 
